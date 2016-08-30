@@ -1,0 +1,16 @@
+You're on a quest to find a long-lost ancient artifact that is said to grant its
+owner the power of the gods.
+
+locations:
+Egypt
+Easter Island
+Atlantis
+parts of the Mayan and/or Astec's former empires (basically, Central + South America)
+[CLASSIFIED]
+
+parts of artifact:
+eye/ankh of ... = egypt
+Statue/Idol/carving = Easter Island
+magic gem/trident = Atlantis
+tablet/calender = Central + South America
+??? = RESTRICTED ACCESS

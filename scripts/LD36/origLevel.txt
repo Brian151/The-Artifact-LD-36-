@@ -1,0 +1,15 @@
+this.ents.push(this.wall = new SlidingWall(this,100,100,128,32));
+//this.wall.setDir(-1);
+this.ents.push(new Wall(this,0,68,100,96));
+//this.ents.push(new Wall(this,0,132,100,32));
+this.ents.push(new Wall(this,164,68,436,32));
+this.ents.push(new Wall(this,164,132,436,32));
+this.ents.push(new EntitySwitch(this,200,10,16));
+//this.ents.push(new EntityHarmful(this,300,250,32,32));
+//this.ents.push(new DeathBeam(this,196,164,32,this.dims.height - 164));
+this.ents.push(this.triggered = new BeamCannon(this,300,250,32,32)); //250
+//for getting beam wall collision perfect
+this.ents.push(new Wall(this,300 - 64,250,32,32));
+this.ents.push(new Wall(this,300 + 64,250,32,32));
+this.ents.push(new Wall(this,300,250 - 64,32,32));
+this.ents.push(new Wall(this,300,250 + 64,32,32));

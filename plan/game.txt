@@ -1,0 +1,18 @@
+Entity - base entity class
+Player - obvious
+Wall - static obstructing wall
+SlidingWall - moving obstructing wall, triggerable
+EntityTriggerable - base triggerable entity class
+EntityHarmful - base harmful entity, damages other entities
+EntitySwitch - triggers triggerable entities upon player collision
+DeathBeam - 'fired' by BeamCannons, or just exists
+BeamCannon - 'fires' DeathBeams, can be disabled/toggled
+
+
+planned: 
+Shooter - shoots
+Enemy - moves folowing path
+Bullet - is shot by stuff
+Artifact - collectable object
++triggerable entity states (allows beams/shooters/slidign walls to toggle, and enemies to follow path)
++linking switches (currently hard-coded)
